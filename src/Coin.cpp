@@ -16,7 +16,7 @@ Coin::Coin(Vector2 pos)
         if (tex->id == 0) {
             TraceLog(LOG_WARNING, "Texture %s has invalid ID!", name.c_str());
         }
-        
+
         coinFrames.push_back(tex);
     }
 

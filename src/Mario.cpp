@@ -31,15 +31,13 @@ Mario::Mario(Vector2 pos, int lives, MarioState form)
 
 }
 
-Mario::Mario() : lives(3), accelerationX(0), maxSpeedX(0), SpeedY(600), isDucking(false), marioState(SMALL), AdditionalState(SMALL) {
+Mario::Mario() : lives(3), accelerationX(0), maxSpeedX(0), SpeedY(600), isDucking(false), marioState(SMALL), AdditionalState(SMALL), coins(0) {
     // Initialize default Mario state
 }
 
 Mario::~Mario() {
     // Destructor
 }
-
-
 
 void Mario::SetLives(int lives) {
     this->lives = lives;
@@ -50,6 +48,37 @@ void Mario::SetSprite(Texture2D sprite) {
 }
 void Mario::SetState(ObjectState state) {
     this->state = state;
+}
+
+void Mario::setInvincible(bool value) {
+    isInvincible = value;
+}
+
+bool Mario::getInvincible() const {
+    return isInvincible;
+}
+
+void Mario::SetCoins(int c) {
+    coins = c;
+    NotifyCoinChange();
+}
+
+int Mario::GetCoins() const {
+    return coins;
+}
+
+void Mario::AddObserver(Observer* ob) {
+    observers.push_back(ob);
+}
+
+void Mario::RemoveObserver(Observer* ob) {
+    observers.erase(std::remove(observers.begin(), observers.end(), ob), observers.end());
+}
+
+void Mario::NotifyCoinChange() {
+    for (Observer* ob : observers) {
+        ob->onMarioCoinChanged(coins);
+    }
 }
 
 int Mario::GetLives() const
@@ -392,10 +421,10 @@ void Mario::draw() {
     DrawTexture(*sprite, pos.x, pos.y, WHITE);
         // std::cout << "Mario position: " << pos.x << ", " << pos.y << std::endl;
     // std::cout << "Mario velocity: " << vel.x << ", " << vel.y << std::endl;
-    // cpN.draw();
-    // cpS.draw();
-    // cpE.draw();
-    // cpW.draw();
+    cpN.draw();
+    cpS.draw();
+    cpE.draw();
+    cpW.draw();
 }
 
 void Mario::changeToBig() {
@@ -438,35 +467,4 @@ void Mario::UpdateCollisionProbes() {
 
 void Mario::fire() {
     fireballs.push_back(new Fireball(pos, direction));
-}
-
-void Mario::setInvincible(bool value) {
-    isInvincible = value;
-}
-
-bool Mario::getInvincible() const {
-    return isInvincible;
-}
-
-void Mario::SetCoins(int c) {
-    coins = c;
-    NotifyCoinChange();
-}
-
-int Mario::GetCoins() const {
-    return coins;
-}
-
-void Mario::AddObserver(Observer* ob) {
-    observers.push_back(ob);
-}
-
-void Mario::RemoveObserver(Observer* ob) {
-    observers.erase(std::remove(observers.begin(), observers.end(), ob), observers.end());
-}
-
-void Mario::NotifyCoinChange() {
-    for (Observer* ob : observers) {
-        ob->onMarioCoinChanged(coins);
-    }
 }

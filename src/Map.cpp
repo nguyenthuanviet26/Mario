@@ -1,5 +1,6 @@
 #include "Map.h"
 
+
 Map::~Map()
 {
     for (Tile* tile : interactiveTiles) {
@@ -7,17 +8,13 @@ Map::~Map()
         tile = nullptr;
     }
     nonInteractiveTiles.clear();
+
 }
 
 std::vector<Tile *> &Map::getInteractiveTiles()
 {
     
     return interactiveTiles;
-}
-
-std::vector<Tile*> &Map::getNonInteractiveTiles()
-{
-    return nonInteractiveTiles;
 }
 
 std::vector<std::shared_ptr<Coin>> &Map::getInteractiveCoins()
@@ -70,31 +67,9 @@ void Map::LoadMap(int mapIndex)
             int tileId = data[y * width + x];
             if (tileId == 0)
                 continue;
-            else if(tileId == 201) {
-                blocks.push_back(new QuestionBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-                interactiveCoins.push_back(std::make_shared<Coin>((float)x * 32, (float)y * 32 - 32));
-            }
-            else if (tileId == 200) {
-                blocks.push_back(new CloudBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-            }
-            else if (tileId == 202) {
-                blocks.push_back(new WoodBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-            }
-            else if (tileId == 203) {
-                blocks.push_back(new GlassBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-            }
-            else if (tileId == 204) {
-                blocks.push_back(new EyesOpenedBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-            }
-            else if (tileId == 205) {
-                blocks.push_back(new EyesClosedBlock({(float)x * 32, (float)y * 32}, {32, 32}, WHITE));
-            }
-            // else if (tileId == 1) {
-            //     nonInteractiveTiles.push_back(new Tile({(float)x * 32, (float)y * 32}, mapIndex, tileId - 1, TILE_TYPE_SOLID));
-            // }
-            else {
-                interactiveTiles.push_back(new Tile({(float)x * 32, (float)y * 32}, mapIndex, tileId - 1, TILE_TYPE_SOLID));
-            }
+            else if(tileId==1)
+                nonInteractiveTiles.push_back(new Tile(Vector2{(float) x * 32,(float) y * 32 },mapIndex ,tileId-1));
+            else interactiveTiles.push_back(new Tile(Vector2{(float) x * 32,(float) y * 32 },mapIndex ,tileId-1));
             }
         }
 }
@@ -108,18 +83,22 @@ void Map::draw()
     for (auto tile : nonInteractiveTiles) {
         tile->draw();
     }
-
-    for (const auto& block : blocks) {
-        block->draw();
-    }
 }
 
 Map::Map()
-{
+{   
+    interactiveCoins.clear();
     currBackgroundStarX = 0.0f;
     background = ResrcManager::GetInstance().getTexture("BACKGROUND_0");
-}
+    // Coin coin({200, 800});
+    auto coin = std::make_shared<Coin>(Vector2{200, 800});
+    interactiveCoins.push_back(coin);
+    // std::cerr << interactiveCoins.size() << '\n';
 
-std::vector<Block*>& Map::getBlocks(){
-        return blocks;
-    };
+    auto courseClearToken = std::make_shared<CourseClearToken>(Vector2{1, 1});
+    interactiveCourseClearTokens.push_back(courseClearToken);
+
+    auto fireFlower = std::make_shared<FireFlower>(Vector2{300, 800});
+    interactiveFireFlowers.push_back(fireFlower);
+
+}

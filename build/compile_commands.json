@@ -1,355 +1,289 @@
 [
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Block.cpp.obj -c D:\\prj3\\Mario\\src\\Block.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Block.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\Block.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Button.cpp.obj -c D:\\prj3\\Mario\\src\\Button.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Button.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\Button.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\CloudBlock.cpp.obj -c D:\\prj3\\Mario\\src\\CloudBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\CloudBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\CloudBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Coin.cpp.obj -c D:\\prj3\\Mario\\src\\Coin.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Coin.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Coin.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Coin.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Coin.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Coin.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\CollisionProbe.cpp.obj -c D:\\prj3\\Mario\\src\\CollisionProbe.cpp",
-  "file": "D:\\prj3\\Mario\\src\\CollisionProbe.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\CollisionProbe.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\CollisionProbe.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\CollisionProbe.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\CollisionProbe.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\CourseClearToken.cpp.obj -c D:\\prj3\\Mario\\src\\CourseClearToken.cpp",
-  "file": "D:\\prj3\\Mario\\src\\CourseClearToken.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\CourseClearToken.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\CourseClearToken.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\CourseClearToken.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\CourseClearToken.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\EyesClosedBlock.cpp.obj -c D:\\prj3\\Mario\\src\\EyesClosedBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\EyesClosedBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\EyesClosedBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\EyesOpenedBlock.cpp.obj -c D:\\prj3\\Mario\\src\\EyesOpenedBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\EyesOpenedBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\EyesOpenedBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\FireFlower.cpp.obj -c D:\\prj3\\Mario\\src\\FireFlower.cpp",
-  "file": "D:\\prj3\\Mario\\src\\FireFlower.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\FireFlower.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\FireFlower.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\FireFlower.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\FireFlower.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Fireball.cpp.obj -c D:\\prj3\\Mario\\src\\Fireball.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Fireball.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Fireball.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Fireball.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Fireball.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Fireball.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\GameClock.cpp.obj -c D:\\prj3\\Mario\\src\\GameClock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\GameClock.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\GameClock.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\GameClock.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\GameClock.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\GameClock.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\GameWorld.cpp.obj -c D:\\prj3\\Mario\\src\\GameWorld.cpp",
-  "file": "D:\\prj3\\Mario\\src\\GameWorld.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\GameWorld.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\GameWorld.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\GameWorld.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\GameWorld.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\GlassBlock.cpp.obj -c D:\\prj3\\Mario\\src\\GlassBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\GlassBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\GlassBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Item.cpp.obj -c D:\\prj3\\Mario\\src\\Item.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Item.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Item.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Item.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Item.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Item.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Map.cpp.obj -c D:\\prj3\\Mario\\src\\Map.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Map.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Map.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Map.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Map.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Map.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Mario.cpp.obj -c D:\\prj3\\Mario\\src\\Mario.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Mario.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Mario.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Mario.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Mario.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Mario.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\MediatorCollision.cpp.obj -c D:\\prj3\\Mario\\src\\MediatorCollision.cpp",
-  "file": "D:\\prj3\\Mario\\src\\MediatorCollision.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\MediatorCollision.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\MediatorCollision.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\MediatorCollision.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\MediatorCollision.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\MenuScreen.cpp.obj -c D:\\prj3\\Mario\\src\\MenuScreen.cpp",
-  "file": "D:\\prj3\\Mario\\src\\MenuScreen.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\MenuScreen.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Mushroom.cpp.obj -c D:\\prj3\\Mario\\src\\Mushroom.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Mushroom.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Mushroom.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Mushroom.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Mushroom.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Mushroom.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Object.cpp.obj -c D:\\prj3\\Mario\\src\\Object.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Object.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Object.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Object.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Object.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Object.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\OneUpMushroom.cpp.obj -c D:\\prj3\\Mario\\src\\OneUpMushroom.cpp",
-  "file": "D:\\prj3\\Mario\\src\\OneUpMushroom.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\OneUpMushroom.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\OneUpMushroom.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\OneUpMushroom.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\OneUpMushroom.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\QuestionBlock.cpp.obj -c D:\\prj3\\Mario\\src\\QuestionBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\QuestionBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\QuestionBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\ResrcManager.cpp.obj -c D:\\prj3\\Mario\\src\\ResrcManager.cpp",
-  "file": "D:\\prj3\\Mario\\src\\ResrcManager.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\ResrcManager.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\ResrcManager.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\ResrcManager.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\ResrcManager.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Screen.cpp.obj -c D:\\prj3\\Mario\\src\\Screen.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Screen.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\Screen.cpp.obj"
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Start.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Start.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Start.cpp",
+  "output": "CMakeFiles\\Mario.dir\\src\\Start.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\ScreenController.cpp.obj -c D:\\prj3\\Mario\\src\\ScreenController.cpp",
-  "file": "D:\\prj3\\Mario\\src\\ScreenController.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\ScreenController.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Star.cpp.obj -c D:\\prj3\\Mario\\src\\Star.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Star.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\Star.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\ThreeUpMoon.cpp.obj -c D:\\prj3\\Mario\\src\\ThreeUpMoon.cpp",
-  "file": "D:\\prj3\\Mario\\src\\ThreeUpMoon.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\ThreeUpMoon.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\ThreeUpMoon.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\ThreeUpMoon.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\ThreeUpMoon.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Tile.cpp.obj -c D:\\prj3\\Mario\\src\\Tile.cpp",
-  "file": "D:\\prj3\\Mario\\src\\Tile.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\Tile.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Tile.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\Tile.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\Tile.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\WoodBlock.cpp.obj -c D:\\prj3\\Mario\\src\\WoodBlock.cpp",
-  "file": "D:\\prj3\\Mario\\src\\WoodBlock.cpp",
-  "output": "CMakeFiles\\Mario.dir\\src\\WoodBlock.cpp.obj"
-},
-{
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\YoshiCoin.cpp.obj -c D:\\prj3\\Mario\\src\\YoshiCoin.cpp",
-  "file": "D:\\prj3\\Mario\\src\\YoshiCoin.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\YoshiCoin.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\YoshiCoin.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\YoshiCoin.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\YoshiCoin.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\main.cpp.obj -c D:\\prj3\\Mario\\src\\main.cpp",
-  "file": "D:\\prj3\\Mario\\src\\main.cpp",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles\\Mario.dir\\src\\main.cpp.obj -c C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\main.cpp",
+  "file": "C:\\Users\\nguye\\Downloads\\Mario-YeenNhy\\Mario-YeenNhy\\src\\main.cpp",
   "output": "CMakeFiles\\Mario.dir\\src\\main.cpp.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj -c C:\\raylib\\src\\raudio.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj -c C:\\raylib\\src\\raudio.c",
   "file": "C:\\raylib\\src\\raudio.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\raylib\\src\\rcore.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\raylib\\src\\rcore.c",
   "file": "C:\\raylib\\src\\rcore.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rmodels.c.obj -c C:\\raylib\\src\\rmodels.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rmodels.c.obj -c C:\\raylib\\src\\rmodels.c",
   "file": "C:\\raylib\\src\\rmodels.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rmodels.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rshapes.c.obj -c C:\\raylib\\src\\rshapes.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rshapes.c.obj -c C:\\raylib\\src\\rshapes.c",
   "file": "C:\\raylib\\src\\rshapes.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rshapes.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtext.c.obj -c C:\\raylib\\src\\rtext.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtext.c.obj -c C:\\raylib\\src\\rtext.c",
   "file": "C:\\raylib\\src\\rtext.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtext.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtextures.c.obj -c C:\\raylib\\src\\rtextures.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtextures.c.obj -c C:\\raylib\\src\\rtextures.c",
   "file": "C:\\raylib\\src\\rtextures.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\rtextures.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\utils.c.obj -c C:\\raylib\\src\\utils.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\utils.c.obj -c C:\\raylib\\src\\utils.c",
   "file": "C:\\raylib\\src\\utils.c",
   "output": "raylib_build\\raylib\\CMakeFiles\\raylib.dir\\utils.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\context.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\context.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\context.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\init.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\init.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\init.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\input.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\input.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\input.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\monitor.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\monitor.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\monitor.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\platform.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\platform.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\platform.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\vulkan.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\vulkan.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\vulkan.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\window.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\window.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\window.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\egl_context.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\egl_context.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\egl_context.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\osmesa_context.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\osmesa_context.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\osmesa_context.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_init.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_init.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\null_init.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_monitor.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_monitor.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\null_monitor.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_window.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_window.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\null_window.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_joystick.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\null_joystick.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\null_joystick.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_module.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_module.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_module.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_time.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_time.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_time.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_thread.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_thread.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_thread.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_init.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_init.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_init.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_joystick.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_joystick.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_joystick.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_monitor.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_monitor.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_monitor.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_window.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\win32_window.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\win32_window.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj"
 },
 {
-  "directory": "D:/prj3/Mario/build",
-  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\wgl_context.c",
+  "directory": "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build",
+  "command": "C:\\Strawberry\\c\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\raylib\\src\\external\\glfw\\src\\wgl_context.c",
   "file": "C:\\raylib\\src\\external\\glfw\\src\\wgl_context.c",
   "output": "raylib_build\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj"
 }

@@ -71,7 +71,7 @@ rule C_COMPILER__glfw_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build
+  command = C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build
   description = Re-running CMake...
   generator = 1
 
@@ -80,7 +80,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = C:\Strawberry\c\bin\cmake.exe -P D:\prj3\Mario\build\CMakeFiles\VerifyGlobs.cmake
+  command = C:\Strawberry\c\bin\cmake.exe -P C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 

@@ -3,19 +3,11 @@
 
 
 void Object::UpdateCollisionProbes() {
-    cpN.setX( pos.x + size.x / 2 - cpN.getWidth() / 2 );
-    cpN.setY( pos.y );
-
-    cpS.setX( pos.x + size.x / 2 - cpS.getWidth() / 2 );
-    cpS.setY( pos.y + size.y - cpS.getHeight() );
-
-    cpE.setX( pos.x + size.x - cpE.getWidth() );
-    cpE.setY( pos.y + size.y / 2 - cpE.getHeight() / 2 );
-
-    cpW.setX( pos.x );
-    cpW.setY( pos.y + size.y / 2 - cpW.getHeight() / 2 );
+    cpN.setPos(Vector2{ pos.x + size.x / 2 - cpN.getSize().x/2 , pos.y });
+    cpS.setPos(Vector2{ pos.x + size.x / 2 - cpS.getSize().x/2, pos.y + size.y - cpS.getSize().y +1 });
+    cpE.setPos(Vector2{ pos.x + size.x - cpE.getSize().x , pos.y + size.y / 2 - cpE.getSize().y / 2 });
+    cpW.setPos(Vector2{ pos.x, pos.y + size.y / 2 - cpW.getSize().y / 2 });
 }
-
 
 void Object::UpdateStateAndPhysic() {
     // Update the object's state and physics based on its current state
@@ -27,7 +19,7 @@ void Object::UpdateStateAndPhysic() {
 
 CollisionType Object::checkCollisionType(const Object& other) const {
     // Check collision with another object
-    //Rectangle rectA = { pos.x, pos.y, size.x, size.y };
+    Rectangle rectA = { pos.x, pos.y, size.x, size.y };
     Rectangle rectB = { other.pos.x, other.pos.y, other.size.x, other.size.y };
     
     
@@ -45,10 +37,10 @@ Object::Object(Vector2 pos, Vector2 size, Vector2 vel, Color color, float frameT
     : pos(pos), size(size), vel(vel), color(color), frameTime(frameTime), maxFrames(maxFrames), direction(direction),
       angle(0.0f), state(OBJECT_STATE_IDLE), AdditionalState(OBJECT_STATE_IDLE), sprite(nullptr),
       frameAcumulator(0.0f), currentFrame(0) {
-    cpN = CollisionProbe{ Vector2{ pos.x + size.x/2 - 10, pos.y}, Vector2{20,5}, color }; // North probe
-    cpS = CollisionProbe{ Vector2{ pos.x + size.x/2 - 10, pos.y + size.y - 5}, Vector2{20,5}, color }; // South probe
-    cpE = CollisionProbe{ Vector2{ pos.x + size.x - 10, pos.y + size.y/2 - 10}, Vector2{5,20}, color }; // East probe
-    cpW = CollisionProbe{ Vector2{ pos.x, pos.y + size.y/2 - 10}, Vector2{5,20}, color }; // West probe
+    cpN = CollisionProbe{ Vector2{ pos.x + size.x/2 - 5, pos.y}, Vector2{size.x,5}, color }; // North probe
+    cpS = CollisionProbe{ Vector2{ pos.x + size.x/2 - 5, pos.y + size.y - 5}, Vector2{size.x,5}, color }; // South probe
+    cpE = CollisionProbe{ Vector2{ pos.x + size.x - 5, pos.y + size.y/2 - 5}, Vector2{5,size.y}, color }; // East probe
+    cpW = CollisionProbe{ Vector2{ pos.x, pos.y + size.y/2 - 5}, Vector2{5,size.y}, color }; // West probe
 }
 Object::Object() : Object(Vector2{0, 0}, Vector2{50, 50}, Vector2{0, 0}, WHITE, 0, 0, DIRECTION_RIGHT) {
     // Default constructor initializes with default values
@@ -66,10 +58,7 @@ Object::~Object() {
     sprite = nullptr; // Assuming sprite is managed elsewhere
 }
 
-Object::Object(Vector2 pos, Vector2 size, Color color, float frameTime, int maxFrames):
-    Object(pos, size, Vector2{0, 0}, color, frameTime, maxFrames, DIRECTION_RIGHT) {
-    // Constructor with position, size, color, frame time and max frames
-}   ;
+
 
 void Object::SetPos(Vector2 pos) {
     this->pos = pos;
