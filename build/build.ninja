@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/prj3/Mario/build/
+cmake_ninja_workdir = C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target Mario
 
@@ -49,251 +49,163 @@ cmake_ninja_workdir = D$:/prj3/Mario/build/
 
 build cmake_object_order_depends_target_Mario: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/Mario.dir/src/Block.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Block.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\Block.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/Button.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Button.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\Button.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/CloudBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/CloudBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\CloudBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/Coin.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Coin.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Coin.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Coin.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Coin.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/CollisionProbe.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/CollisionProbe.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/CollisionProbe.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/CollisionProbe.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\CollisionProbe.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/CourseClearToken.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/CourseClearToken.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/CourseClearToken.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/CourseClearToken.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\CourseClearToken.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/EyesClosedBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/EyesClosedBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\EyesClosedBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/EyesOpenedBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/EyesOpenedBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\EyesOpenedBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/FireFlower.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/FireFlower.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/FireFlower.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/FireFlower.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\FireFlower.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Fireball.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Fireball.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Fireball.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Fireball.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Fireball.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/GameClock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/GameClock.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/GameClock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/GameClock.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\GameClock.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/GameWorld.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/GameWorld.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/GameWorld.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/GameWorld.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\GameWorld.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/GlassBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/GlassBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\GlassBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/Item.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Item.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Item.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Item.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Item.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Map.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Map.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Map.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Map.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Map.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Mario.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Mario.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Mario.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Mario.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Mario.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/MediatorCollision.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/MediatorCollision.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/MediatorCollision.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/MediatorCollision.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\MediatorCollision.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/MenuScreen.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/MenuScreen.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\MenuScreen.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/Mushroom.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Mushroom.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Mushroom.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Mushroom.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Mushroom.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Object.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Object.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Object.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Object.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Object.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/OneUpMushroom.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/OneUpMushroom.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/OneUpMushroom.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/OneUpMushroom.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\OneUpMushroom.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/QuestionBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/QuestionBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\QuestionBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/ResrcManager.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/ResrcManager.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/ResrcManager.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/ResrcManager.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\ResrcManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Screen.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Screen.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Start.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Start.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\Screen.cpp.obj.d
+  DEP_FILE = CMakeFiles\Mario.dir\src\Start.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/ScreenController.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/ScreenController.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\ScreenController.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/Star.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Star.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\Star.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/ThreeUpMoon.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/ThreeUpMoon.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/ThreeUpMoon.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/ThreeUpMoon.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\ThreeUpMoon.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/Tile.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/Tile.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/Tile.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Tile.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\Tile.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/WoodBlock.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/WoodBlock.cpp || cmake_object_order_depends_target_Mario
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Mario.dir\src\WoodBlock.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Mario.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
-
-build CMakeFiles/Mario.dir/src/YoshiCoin.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/YoshiCoin.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/YoshiCoin.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/YoshiCoin.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\YoshiCoin.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
-build CMakeFiles/Mario.dir/src/main.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug D$:/prj3/Mario/src/main.cpp || cmake_object_order_depends_target_Mario
+build CMakeFiles/Mario.dir/src/main.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/main.cpp || cmake_object_order_depends_target_Mario
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Mario.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -IC:/raylib/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\Mario.dir
   OBJECT_FILE_DIR = CMakeFiles\Mario.dir\src
 
@@ -305,7 +217,7 @@ build CMakeFiles/Mario.dir/src/main.cpp.obj: CXX_COMPILER__Mario_unscanned_Debug
 #############################################
 # Link the executable Mario.exe
 
-build Mario.exe: CXX_EXECUTABLE_LINKER__Mario_Debug CMakeFiles/Mario.dir/src/Block.cpp.obj CMakeFiles/Mario.dir/src/Button.cpp.obj CMakeFiles/Mario.dir/src/CloudBlock.cpp.obj CMakeFiles/Mario.dir/src/Coin.cpp.obj CMakeFiles/Mario.dir/src/CollisionProbe.cpp.obj CMakeFiles/Mario.dir/src/CourseClearToken.cpp.obj CMakeFiles/Mario.dir/src/EyesClosedBlock.cpp.obj CMakeFiles/Mario.dir/src/EyesOpenedBlock.cpp.obj CMakeFiles/Mario.dir/src/FireFlower.cpp.obj CMakeFiles/Mario.dir/src/Fireball.cpp.obj CMakeFiles/Mario.dir/src/GameClock.cpp.obj CMakeFiles/Mario.dir/src/GameWorld.cpp.obj CMakeFiles/Mario.dir/src/GlassBlock.cpp.obj CMakeFiles/Mario.dir/src/Item.cpp.obj CMakeFiles/Mario.dir/src/Map.cpp.obj CMakeFiles/Mario.dir/src/Mario.cpp.obj CMakeFiles/Mario.dir/src/MediatorCollision.cpp.obj CMakeFiles/Mario.dir/src/MenuScreen.cpp.obj CMakeFiles/Mario.dir/src/Mushroom.cpp.obj CMakeFiles/Mario.dir/src/Object.cpp.obj CMakeFiles/Mario.dir/src/OneUpMushroom.cpp.obj CMakeFiles/Mario.dir/src/QuestionBlock.cpp.obj CMakeFiles/Mario.dir/src/ResrcManager.cpp.obj CMakeFiles/Mario.dir/src/Screen.cpp.obj CMakeFiles/Mario.dir/src/ScreenController.cpp.obj CMakeFiles/Mario.dir/src/Star.cpp.obj CMakeFiles/Mario.dir/src/ThreeUpMoon.cpp.obj CMakeFiles/Mario.dir/src/Tile.cpp.obj CMakeFiles/Mario.dir/src/WoodBlock.cpp.obj CMakeFiles/Mario.dir/src/YoshiCoin.cpp.obj CMakeFiles/Mario.dir/src/main.cpp.obj | raylib_build/raylib/libraylib.a || raylib_build/raylib/external/glfw/src/glfw raylib_build/raylib/libraylib.a
+build Mario.exe: CXX_EXECUTABLE_LINKER__Mario_Debug CMakeFiles/Mario.dir/src/Coin.cpp.obj CMakeFiles/Mario.dir/src/CollisionProbe.cpp.obj CMakeFiles/Mario.dir/src/CourseClearToken.cpp.obj CMakeFiles/Mario.dir/src/FireFlower.cpp.obj CMakeFiles/Mario.dir/src/Fireball.cpp.obj CMakeFiles/Mario.dir/src/GameClock.cpp.obj CMakeFiles/Mario.dir/src/GameWorld.cpp.obj CMakeFiles/Mario.dir/src/Item.cpp.obj CMakeFiles/Mario.dir/src/Map.cpp.obj CMakeFiles/Mario.dir/src/Mario.cpp.obj CMakeFiles/Mario.dir/src/MediatorCollision.cpp.obj CMakeFiles/Mario.dir/src/Mushroom.cpp.obj CMakeFiles/Mario.dir/src/Object.cpp.obj CMakeFiles/Mario.dir/src/OneUpMushroom.cpp.obj CMakeFiles/Mario.dir/src/ResrcManager.cpp.obj CMakeFiles/Mario.dir/src/Start.cpp.obj CMakeFiles/Mario.dir/src/ThreeUpMoon.cpp.obj CMakeFiles/Mario.dir/src/Tile.cpp.obj CMakeFiles/Mario.dir/src/YoshiCoin.cpp.obj CMakeFiles/Mario.dir/src/main.cpp.obj | raylib_build/raylib/libraylib.a || raylib_build/raylib/external/glfw/src/glfw raylib_build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = raylib_build/raylib/libraylib.a  -lwinmm  -lgdi32  -lopengl32  -lglu32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mario.dir
@@ -320,7 +232,7 @@ build Mario.exe: CXX_EXECUTABLE_LINKER__Mario_Debug CMakeFiles/Mario.dir/src/Blo
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -332,7 +244,7 @@ build package: phony CMakeFiles/package.util
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake D:/prj3/Mario/build/CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -344,7 +256,7 @@ build package_source: phony CMakeFiles/package_source.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -355,7 +267,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -373,7 +285,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -385,7 +297,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -397,7 +309,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -406,7 +318,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# D:/prj3/Mario/CMakeLists.txt
+# C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/CMakeLists.txt
 # =============================================================================
 
 
@@ -414,7 +326,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for package
 
 build raylib_build/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -426,7 +338,7 @@ build raylib_build/package: phony raylib_build/CMakeFiles/package.util
 # Utility command for package_source
 
 build raylib_build/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake D:/prj3/Mario/build/CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -438,7 +350,7 @@ build raylib_build/package_source: phony raylib_build/CMakeFiles/package_source.
 # Utility command for edit_cache
 
 build raylib_build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -449,7 +361,7 @@ build raylib_build/edit_cache: phony raylib_build/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build raylib_build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -467,7 +379,7 @@ build raylib_build/list_install_components: phony
 # Utility command for install
 
 build raylib_build/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -479,7 +391,7 @@ build raylib_build/install: phony raylib_build/CMakeFiles/install.util
 # Utility command for install/local
 
 build raylib_build/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -491,7 +403,7 @@ build raylib_build/install/local: phony raylib_build/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build raylib_build/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -516,7 +428,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\raudio.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -524,7 +436,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\rcore.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -532,7 +444,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__rayli
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\rmodels.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -540,7 +452,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__rayli
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\rshapes.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -548,7 +460,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\rtext.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -556,7 +468,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__ray
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\rtextures.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -564,7 +476,7 @@ build raylib_build/raylib/CMakeFiles/raylib.dir/utils.c.obj: C_COMPILER__raylib_
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = raylib_build\raylib\CMakeFiles\raylib.dir\utils.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src -isystem C:/raylib/src/external/glfw/include
   OBJECT_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = raylib_build\raylib\CMakeFiles\raylib.dir
 
@@ -589,7 +501,7 @@ build raylib_build/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Debug ray
 # Utility command for package
 
 build raylib_build/raylib/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -601,7 +513,7 @@ build raylib_build/raylib/package: phony raylib_build/raylib/CMakeFiles/package.
 # Utility command for package_source
 
 build raylib_build/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake D:/prj3/Mario/build/CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -613,7 +525,7 @@ build raylib_build/raylib/package_source: phony raylib_build/raylib/CMakeFiles/p
 # Utility command for edit_cache
 
 build raylib_build/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -624,7 +536,7 @@ build raylib_build/raylib/edit_cache: phony raylib_build/raylib/CMakeFiles/edit_
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -642,7 +554,7 @@ build raylib_build/raylib/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -654,7 +566,7 @@ build raylib_build/raylib/install: phony raylib_build/raylib/CMakeFiles/install.
 # Utility command for install/local
 
 build raylib_build/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -666,7 +578,7 @@ build raylib_build/raylib/install/local: phony raylib_build/raylib/CMakeFiles/in
 # Utility command for install/strip
 
 build raylib_build/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -683,7 +595,7 @@ build raylib_build/raylib/install/strip: phony raylib_build/raylib/CMakeFiles/in
 # Utility command for package
 
 build raylib_build/raylib/external/glfw/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -695,7 +607,7 @@ build raylib_build/raylib/external/glfw/package: phony raylib_build/raylib/exter
 # Utility command for package_source
 
 build raylib_build/raylib/external/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake D:/prj3/Mario/build/CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -707,7 +619,7 @@ build raylib_build/raylib/external/glfw/package_source: phony raylib_build/rayli
 # Utility command for edit_cache
 
 build raylib_build/raylib/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -718,7 +630,7 @@ build raylib_build/raylib/external/glfw/edit_cache: phony raylib_build/raylib/ex
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -736,7 +648,7 @@ build raylib_build/raylib/external/glfw/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -748,7 +660,7 @@ build raylib_build/raylib/external/glfw/install: phony raylib_build/raylib/exter
 # Utility command for install/local
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -760,7 +672,7 @@ build raylib_build/raylib/external/glfw/install/local: phony raylib_build/raylib
 # Utility command for install/strip
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -785,7 +697,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -793,7 +705,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_CO
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -801,7 +713,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -809,7 +721,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -817,7 +729,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: 
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -825,7 +737,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -833,7 +745,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -841,7 +753,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -849,7 +761,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -857,7 +769,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj:
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -865,7 +777,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -873,7 +785,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -881,7 +793,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -889,7 +801,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -897,7 +809,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -905,7 +817,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -913,7 +825,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -921,7 +833,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -929,7 +841,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -937,7 +849,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -945,7 +857,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -ID:/prj3/Mario/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -ID:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/inc -IC:/raylib/src/external/glfw/include -IC:/raylib/src/external/glfw/src -IC:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
@@ -967,7 +879,7 @@ build raylib_build/raylib/external/glfw/src/update_mappings: phony raylib_build/
 # Utility command for package
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -979,7 +891,7 @@ build raylib_build/raylib/external/glfw/src/package: phony raylib_build/raylib/e
 # Utility command for package_source
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake D:/prj3/Mario/build/CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build && C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -991,7 +903,7 @@ build raylib_build/raylib/external/glfw/src/package_source: phony raylib_build/r
 # Utility command for edit_cache
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1002,7 +914,7 @@ build raylib_build/raylib/external/glfw/src/edit_cache: phony raylib_build/rayli
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SD:\prj3\Mario -BD:\prj3\Mario\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy -BC:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1020,7 +932,7 @@ build raylib_build/raylib/external/glfw/src/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1032,7 +944,7 @@ build raylib_build/raylib/external/glfw/src/install: phony raylib_build/raylib/e
 # Utility command for install/local
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1044,7 +956,7 @@ build raylib_build/raylib/external/glfw/src/install/local: phony raylib_build/ra
 # Utility command for install/strip
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\prj3\Mario\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\nguye\Downloads\Mario-YeenNhy\Mario-YeenNhy\build\raylib_build\raylib\external\glfw\src && C:\Strawberry\c\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1078,35 +990,35 @@ build update_mappings: phony raylib_build/raylib/external/glfw/src/update_mappin
 # =============================================================================
 
 #############################################
-# Folder: D:/prj3/Mario/build
+# Folder: C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build
 
 build all: phony Mario.exe raylib_build/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/prj3/Mario/build/raylib_build
+# Folder: C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build
 
 build raylib_build/all: phony raylib_build/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/prj3/Mario/build/raylib_build/raylib
+# Folder: C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib
 
 build raylib_build/raylib/all: phony raylib_build/raylib/libraylib.a raylib_build/raylib/external/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/prj3/Mario/build/raylib_build/raylib/external/glfw
+# Folder: C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw
 
 build raylib_build/raylib/external/glfw/all: phony raylib_build/raylib/external/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/prj3/Mario/build/raylib_build/raylib/external/glfw/src
+# Folder: C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/external/glfw/src
 
 build raylib_build/raylib/external/glfw/src/all: phony raylib_build/raylib/external/glfw/src/glfw
 
@@ -1117,13 +1029,13 @@ build raylib_build/raylib/external/glfw/src/all: phony raylib_build/raylib/exter
 #############################################
 # Phony target to force glob verification run.
 
-build D$:/prj3/Mario/build/CMakeFiles/VerifyGlobs.cmake_force: phony
+build C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build D$:/prj3/Mario/build/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | D$:/prj3/Mario/build/CMakeFiles/VerifyGlobs.cmake_force
+build C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -1131,14 +1043,14 @@ build D$:/prj3/Mario/build/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | D$:/prj
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE D$:/prj3/Mario/build/CMakeFiles/cmake.verify_globs | C$:/Strawberry/c/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPack.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Strawberry/c/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/raylib/CMakeLists.txt C$:/raylib/CMakeOptions.txt C$:/raylib/cmake/AddIfFlagCompiles.cmake C$:/raylib/cmake/CompileDefinitions.cmake C$:/raylib/cmake/CompilerFlags.cmake C$:/raylib/cmake/EnumOption.cmake C$:/raylib/cmake/GlfwImport.cmake C$:/raylib/cmake/InstallConfigurations.cmake C$:/raylib/cmake/JoinPaths.cmake C$:/raylib/cmake/LibraryConfigurations.cmake C$:/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/raylib/cmake/PackConfigurations.cmake C$:/raylib/cmake/ParseConfigHeader.cmake C$:/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/raylib/cmake/raylib-config-version.cmake C$:/raylib/raylib.pc.in C$:/raylib/src/CMakeLists.txt C$:/raylib/src/external/glfw/CMakeLists.txt C$:/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/prj3/Mario/build/CMakeFiles/VerifyGlobs.cmake D$:/prj3/Mario/CMakeLists.txt
+build build.ninja: RERUN_CMAKE C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/cmake.verify_globs | C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/VerifyGlobs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPack.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Strawberry/c/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/CMakeLists.txt C$:/raylib/CMakeLists.txt C$:/raylib/CMakeOptions.txt C$:/raylib/cmake/AddIfFlagCompiles.cmake C$:/raylib/cmake/CompileDefinitions.cmake C$:/raylib/cmake/CompilerFlags.cmake C$:/raylib/cmake/EnumOption.cmake C$:/raylib/cmake/GlfwImport.cmake C$:/raylib/cmake/InstallConfigurations.cmake C$:/raylib/cmake/JoinPaths.cmake C$:/raylib/cmake/LibraryConfigurations.cmake C$:/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/raylib/cmake/PackConfigurations.cmake C$:/raylib/cmake/ParseConfigHeader.cmake C$:/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/raylib/cmake/raylib-config-version.cmake C$:/raylib/raylib.pc.in C$:/raylib/src/CMakeLists.txt C$:/raylib/src/external/glfw/CMakeLists.txt C$:/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Strawberry/c/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPack.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Strawberry/c/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/raylib/CMakeLists.txt C$:/raylib/CMakeOptions.txt C$:/raylib/cmake/AddIfFlagCompiles.cmake C$:/raylib/cmake/CompileDefinitions.cmake C$:/raylib/cmake/CompilerFlags.cmake C$:/raylib/cmake/EnumOption.cmake C$:/raylib/cmake/GlfwImport.cmake C$:/raylib/cmake/InstallConfigurations.cmake C$:/raylib/cmake/JoinPaths.cmake C$:/raylib/cmake/LibraryConfigurations.cmake C$:/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/raylib/cmake/PackConfigurations.cmake C$:/raylib/cmake/ParseConfigHeader.cmake C$:/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/raylib/cmake/raylib-config-version.cmake C$:/raylib/raylib.pc.in C$:/raylib/src/CMakeLists.txt C$:/raylib/src/external/glfw/CMakeLists.txt C$:/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/prj3/Mario/build/CMakeFiles/VerifyGlobs.cmake D$:/prj3/Mario/CMakeLists.txt: phony
+build C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/VerifyGlobs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPack.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Strawberry/c/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Strawberry/c/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/CMakeLists.txt C$:/raylib/CMakeLists.txt C$:/raylib/CMakeOptions.txt C$:/raylib/cmake/AddIfFlagCompiles.cmake C$:/raylib/cmake/CompileDefinitions.cmake C$:/raylib/cmake/CompilerFlags.cmake C$:/raylib/cmake/EnumOption.cmake C$:/raylib/cmake/GlfwImport.cmake C$:/raylib/cmake/InstallConfigurations.cmake C$:/raylib/cmake/JoinPaths.cmake C$:/raylib/cmake/LibraryConfigurations.cmake C$:/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/raylib/cmake/PackConfigurations.cmake C$:/raylib/cmake/ParseConfigHeader.cmake C$:/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/raylib/cmake/raylib-config-version.cmake C$:/raylib/raylib.pc.in C$:/raylib/src/CMakeLists.txt C$:/raylib/src/external/glfw/CMakeLists.txt C$:/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake: phony
 
 
 #############################################

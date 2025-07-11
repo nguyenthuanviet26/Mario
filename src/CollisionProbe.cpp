@@ -1,6 +1,5 @@
 #include "CollisionProbe.h"
 #include "raylib.h"
-#include <iostream>
 
 CollisionProbe::CollisionProbe() : pos{0, 0}, size{5, 5}, color{WHITE} {
     // Default constructor initializes with default values
@@ -16,15 +15,16 @@ CollisionProbe::~CollisionProbe() {
 }
 
 void CollisionProbe::draw() {
-    std::cout << "Probe size: " << size.x << " x " << size.y << std::endl;
     DrawRectangleV(pos, size, color);
 }
+
 bool CollisionProbe::checkCollision(const Rectangle &rect) const {
     Rectangle probeRect = { pos.x, pos.y, size.x, size.y };
     
     if (CheckCollisionRecs(probeRect, rect)) {
         return true;
     }
+    
     return false;
 }
 

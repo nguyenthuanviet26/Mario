@@ -9,14 +9,18 @@
 #include "ResrcManager.h"
 #include "Fireball.h"
 #include "Observer.h"
-#include <vector>
 
+// Removed unnecessary include of GameWorld.h
+// class Fireball; // Forward declaration
 enum MarioState
 {
     SMALL = 0,
     BIG,
     FIRE
 };
+
+#include "Observer.h"
+#include <vector>
 
 class Mario : public Object
 {

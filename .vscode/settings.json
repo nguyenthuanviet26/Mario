@@ -84,6 +84,5 @@
         "string_view": "cpp",
         "text_encoding": "cpp",
         "cinttypes": "cpp"
-    },
-    "C_Cpp.default.compilerPath": "C:/Strawberry/c/bin/g++.exe"
+    }
 }

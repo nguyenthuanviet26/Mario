@@ -3,41 +3,30 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES at CMakeLists.txt:21 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/prj3/Mario/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/*.cpp")
 set(OLD_GLOB
-  "D:/prj3/Mario/src/Block.cpp"
-  "D:/prj3/Mario/src/Button.cpp"
-  "D:/prj3/Mario/src/CloudBlock.cpp"
-  "D:/prj3/Mario/src/Coin.cpp"
-  "D:/prj3/Mario/src/CollisionProbe.cpp"
-  "D:/prj3/Mario/src/CourseClearToken.cpp"
-  "D:/prj3/Mario/src/EyesClosedBlock.cpp"
-  "D:/prj3/Mario/src/EyesOpenedBlock.cpp"
-  "D:/prj3/Mario/src/FireFlower.cpp"
-  "D:/prj3/Mario/src/Fireball.cpp"
-  "D:/prj3/Mario/src/GameClock.cpp"
-  "D:/prj3/Mario/src/GameWorld.cpp"
-  "D:/prj3/Mario/src/GlassBlock.cpp"
-  "D:/prj3/Mario/src/Item.cpp"
-  "D:/prj3/Mario/src/Map.cpp"
-  "D:/prj3/Mario/src/Mario.cpp"
-  "D:/prj3/Mario/src/MediatorCollision.cpp"
-  "D:/prj3/Mario/src/MenuScreen.cpp"
-  "D:/prj3/Mario/src/Mushroom.cpp"
-  "D:/prj3/Mario/src/Object.cpp"
-  "D:/prj3/Mario/src/OneUpMushroom.cpp"
-  "D:/prj3/Mario/src/QuestionBlock.cpp"
-  "D:/prj3/Mario/src/ResrcManager.cpp"
-  "D:/prj3/Mario/src/Screen.cpp"
-  "D:/prj3/Mario/src/ScreenController.cpp"
-  "D:/prj3/Mario/src/Star.cpp"
-  "D:/prj3/Mario/src/ThreeUpMoon.cpp"
-  "D:/prj3/Mario/src/Tile.cpp"
-  "D:/prj3/Mario/src/WoodBlock.cpp"
-  "D:/prj3/Mario/src/YoshiCoin.cpp"
-  "D:/prj3/Mario/src/main.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Coin.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/CollisionProbe.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/CourseClearToken.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/FireFlower.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Fireball.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/GameClock.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/GameWorld.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Item.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Map.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Mario.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/MediatorCollision.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Mushroom.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Object.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/OneUpMushroom.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/ResrcManager.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Start.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/ThreeUpMoon.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/Tile.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/YoshiCoin.cpp"
+  "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/prj3/Mario/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/CMakeFiles/cmake.verify_globs")
 endif()

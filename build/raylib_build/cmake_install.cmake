@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/prj3/Mario/build/raylib_build/raylib/cmake_install.cmake")
+  include("C:/Users/nguye/Downloads/Mario-YeenNhy/Mario-YeenNhy/build/raylib_build/raylib/cmake_install.cmake")
 endif()
 
